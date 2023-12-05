@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ormeco-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ormeco-kps-laravel-firebase-auth-planetscale-nginx-aws
+  template:
+    metadata:
+      labels:
+        app: ormeco-kps-laravel-firebase-auth-planetscale-nginx-aws
+    spec:
+      containers:
+        - name: ormeco-kps-laravel-firebase-auth-planetscale-nginx-aws
+          image: rencecaringal000/ormeco-kps-laravel-firebase-auth-planetscale-nginx-aws:8.0
+          ports:
+            - containerPort: 80
