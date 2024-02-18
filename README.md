@@ -23,9 +23,7 @@ docker build -t laravel:1.0 .
 docker run -d -p 80:80 laravel:1.0
 
 
-note: This are the repository links in docker hub registry
-
-note:still working to deploy in ECS EC2 and still dealing with 504 gateway timeout
+note: This are the repository links in docker hub registry.
 
 
 https://hub.docker.com/r/rencecaringal000/ormeco-kps-laravel-firebase-auth-nginx-aws
