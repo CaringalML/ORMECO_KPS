@@ -26,8 +26,7 @@ docker run -d -p 80:80 laravel:1.0
 note: This are the repository links in docker hub registry.
 
 
-https://hub.docker.com/r/rencecaringal000/ormeco-kps-laravel-firebase-auth-nginx-aws
-
+https://hub.docker.com/r/rencecaringal000/ormeco-kps-laravel-firebase-auth-planetscale-nginx-aws/tags
 
 note: This is the youtube link of the project(explanation/tutorial)
 YouTube link: https://youtu.be/AnaE8d6Y2hA 
