@@ -14,6 +14,14 @@
 
 
 
+Install MySQL driver for PHP 
+
+
+sudo apt install php8.2-mysql
+
+
+
+
 
 Note: run this command in your Linux terminal with docker desktop and docker engine installed
 
